@@ -1,0 +1,14 @@
+{
+    "domains": {
+        "yourdomain.sexy": {
+            "enabled": true,
+            "tls": false,
+            "sslOptions": {
+                "key": "/root/key.pem",
+                "cert": "/root/fullchain.pem"
+            },
+            "backend": "backend adress",
+            "verifySSL": false
+        }
+    }
+}
